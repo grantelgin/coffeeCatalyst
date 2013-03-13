@@ -16,8 +16,9 @@ body {background-color: black;}
 .bottom {position:absolute; bottom: 0; right:0;width: 50%;}
 .cups { width:15%; height:40px; float:left; margin: 0px 10px 5px 0px; padding: 25px 10px 0px 50px; border-right:1px solid #424a43; color:#656565;background-image:url(images/cup.png); background-position: 0 50%; background-repeat: no-repeat; background-size: 30px; font-family:"helvetica neue";}
 .brewTime { width:15%; height:40px; float:left; margin: 0px 10px 5px 0px; padding: 25px 10px 0px 50px; border-right:1px solid #424a43; color:#656565; background-image:url(images/time.png);background-position: 0 50%; background-repeat: no-repeat;background-size: 30px; font-family:"helvetica neue"; }
-.price { border-radius: 50%; width:30px; height:30px; padding:10px 10px 5px 5px; color:white; background-color: #424a43; margin:auto; font-size: 20px; float:left; text-align: center; border-bottom:1px inset #7f8d81;font-family:"helvetica neue";}
+.price { border-radius: 50%; width:30px; height:30px; padding:15px 10px 5px 8px; color:white; background-color: #424a43; margin:auto; font-size: 15px; float:left; text-align: center; border-bottom:1px inset #7f8d81;font-family:"helvetica neue";}
 .priceTag {border-radius: 7px; background-color: #5a655c; color: #dde7dc;padding: 10px; width:33%; float:right;margin: 0px 10px 5px 0px;font-family: "Amatic SC"; font-size: 20px;}
 .priceCompare {border-radius: 7px; height:15px; color:white; margin:auto; font-size: 10px; float:left; text-align: center; font-family:"helvetica neue";float:right;}
+li { margin-bottom: 10px; }
 
 
