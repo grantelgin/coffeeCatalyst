@@ -10,7 +10,10 @@ body {background-color: black;}
 .coverImage2 { width: 400px; border-top-left-radius: 7px; border-bottom-left-radius: 7px; box-shadow: 1px 0px 1px #2a2a2a; padding:0px; overflow: hidden; float:left; background-color: white;}
 .coverImage2 img {width:400px; height:100%; margin-top: 30px; }
 .itemDesc2 {font-family: "Amatic SC"; color:#656565; padding-bottom: 10px; padding-left: 20px; font-size: 30px; margin-bottom:10px; }
-.itemContainer2 {margin-bottom:20px; background-color: #f0f0f0; width:70%; margin:auto; margin-top: 30px; border-radius:7px;position:relative;}
+.itemDesc2 a {text-decoration: none; color:#656565;}
+.itemDesc2 a:hover {text-decoration: none; color:#424a43;}
+
+.itemContainer2 {margin-bottom:20px; background-color: #f0f0f0; width:80%; margin:auto; margin-top: 30px; border-radius:7px;position:relative;}
 .itemDetail2 { height: 60%; padding:0px 20px 0px 420px; text-align: justify; font-family:"helvetica neue"; }
 .lowDown { width: 13%; text-align:center; }
 .bottom {position:absolute; bottom: 0; right:0;width: 50%;}
@@ -18,6 +21,7 @@ body {background-color: black;}
 .brewTime { width:15%; height:40px; float:left; margin: 0px 10px 5px 0px; padding: 25px 10px 0px 50px; border-right:1px solid #424a43; color:#656565; background-image:url(images/time.png);background-position: 0 50%; background-repeat: no-repeat;background-size: 30px; font-family:"helvetica neue"; }
 .price { border-radius: 50%; width:30px; height:30px; padding:15px 10px 5px 8px; color:white; background-color: #424a43; margin:auto; font-size: 15px; float:left; text-align: center; border-bottom:1px inset #7f8d81;font-family:"helvetica neue";}
 .priceTag {border-radius: 7px; background-color: #5a655c; color: #dde7dc;padding: 10px; width:33%; float:right;margin: 0px 10px 5px 0px;font-family: "Amatic SC"; font-size: 20px;}
+.priceTag a {text-decoration:none; color:#dde7dc; width:100%; height:100%;}
 .priceCompare {border-radius: 7px; height:15px; color:white; margin:auto; font-size: 10px; float:left; text-align: center; font-family:"helvetica neue";float:right;}
 li { margin-bottom: 10px; }
 
