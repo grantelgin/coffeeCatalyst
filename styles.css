@@ -7,14 +7,14 @@ body {background-color: black;}
 .itemDesc {font-family: "Amatic SC"; color:#656565; padding-bottom: 10px; padding-top: 10px; font-size: 24px;}
 .itemPartition { background-image:url(images/star.png); background-position: center center; background-repeat: no-repeat; margin-top: -20px; border-top: 2px solid white; margin: 20px;}
 
-.coverImage2 { width: 400px; border-top-left-radius: 7px; border-bottom-left-radius: 7px; box-shadow: 1px 0px 1px #2a2a2a; padding:0px; overflow: hidden; float:left; background-color: white;}
-.coverImage2 img {width:400px; height:100%; margin-top: 30px; }
+.coverImage2 { min-width: 400px; border-top-left-radius: 7px; border-bottom-left-radius: 7px; box-shadow: 1px 0px 1px #2a2a2a; padding:0px; overflow: hidden; float:left; background-color: white;}
+.coverImage2 img {height:250px; margin-top: 30px; }
 .itemDesc2 {font-family: "Amatic SC"; color:#656565; padding-bottom: 10px; padding-left: 20px; font-size: 30px; margin-bottom:10px; }
 .itemDesc2 a {text-decoration: none; color:#656565;}
 .itemDesc2 a:hover {text-decoration: none; color:#424a43;}
 
 .itemContainer2 {margin-bottom:20px; background-color: #f0f0f0; width:80%; margin:auto; margin-top: 30px; border-radius:7px;position:relative;}
-.itemDetail2 { height: 60%; padding:0px 20px 0px 420px; text-align: justify; font-family:"helvetica neue"; }
+.itemDetail2 { height: 60%; padding:0px 20px 0px 420px; text-align: justify; font-family:"helvetica neue"; font-size: 13px;}
 .lowDown { width: 13%; text-align:center; }
 .bottom {position:absolute; bottom: 0; right:0;width: 50%;}
 .cups { width:15%; height:40px; float:left; margin: 0px 10px 5px 0px; padding: 25px 10px 0px 50px; border-right:1px solid #424a43; color:#656565;background-image:url(images/cup.png); background-position: 0 50%; background-repeat: no-repeat; background-size: 30px; font-family:"helvetica neue";}
