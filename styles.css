@@ -2,6 +2,10 @@
     font-family: "Amatic SC";
     src: url('fonts/AmaticSC-Regular.ttf');
 }
+@font-face {
+    font-family: "helvetica neue";
+    src: url('fonts/helveticaneue-webfont.ttf');
+}
 body {background-color: black;}
 .banner {background-color: #55382b; color:white; width:100%; height: 50px; font-family:"helvetica neue"; font-size: 30px; padding-top:10px;}
 .pageContent {text-align:center; margin-top:20px;}
